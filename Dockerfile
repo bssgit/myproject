@@ -1,6 +1,6 @@
 FROM httpd
 
-COPY . /var/www/html
+COPY web /var/www/html
 
 EXPOSE 80
 
